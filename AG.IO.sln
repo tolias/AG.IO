@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.IO", "AG.IO\AG.IO.csproj", "{01E3977F-59B7-428A-B37F-028E9313150E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefProjects", "RefProjects", "{5C2626E9-5B57-44AC-9701-B2D6F9268971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Utilities", "..\AG.Utilities\AG.Utilities\AG.Utilities.csproj", "{5C960107-46CE-4F11-9CD4-125FED7773C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01E3977F-59B7-428A-B37F-028E9313150E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E3977F-59B7-428A-B37F-028E9313150E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E3977F-59B7-428A-B37F-028E9313150E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E3977F-59B7-428A-B37F-028E9313150E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C960107-46CE-4F11-9CD4-125FED7773C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C960107-46CE-4F11-9CD4-125FED7773C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C960107-46CE-4F11-9CD4-125FED7773C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C960107-46CE-4F11-9CD4-125FED7773C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C960107-46CE-4F11-9CD4-125FED7773C7} = {5C2626E9-5B57-44AC-9701-B2D6F9268971}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://anatoliig.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ..\\AG.Utilities\\AG.Utilities\\AG.Utilities.csproj
+		SccProjectTopLevelParentUniqueName0 = AG.IO.sln
+		SccProjectName0 = ../AG.Utilities/AG.Utilities
+		SccLocalPath0 = ..\\AG.Utilities\\AG.Utilities
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = AG.IO\\AG.IO.csproj
+		SccProjectName2 = AG.IO
+		SccLocalPath2 = AG.IO
+	EndGlobalSection
+EndGlobal
