@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AG.Utilities, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\MyProgs\MyMiniTools\ServerHealthService\WebApp\ServerHealthServiceWebApp\packages\AG.Utilities.1.0.0.1\lib\net35\AG.Utilities.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -47,10 +50,7 @@
     <Compile Include="StreamUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AG.Utilities\AG.Utilities\AG.Utilities.csproj">
-      <Project>{5c960107-46ce-4f11-9cd4-125fed7773c7}</Project>
-      <Name>AG.Utilities</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
